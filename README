@@ -1,6 +1,12 @@
 Description
 This project contains some common project configurations for rebar.
 
+Installation
+To install, drop these into an existing ~/.rebar/templates. If you don't have
+this directory you can clone directly into it.
+
+$ git clone git://github.com/muxspace/rebar-templates.git ~/.rebar/templates
+
 Library
 A library is non-executable and is included as a dependency in other projects.
 To set up a library, run the following command.
