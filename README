@@ -5,7 +5,7 @@ Installation
 To install, drop these into an existing ~/.rebar/templates. If you don't have
 this directory you can clone directly into it.
 
-$ git clone git://github.com/muxspace/rebar-templates.git ~/.rebar/templates
+$ git clone git://github.com/muxspace/rebar_templates.git ~/.rebar/templates
 
 Library
 A library is non-executable and is included as a dependency in other projects.
