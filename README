@@ -1,0 +1,10 @@
+Description
+This project contains some common project configurations for rebar.
+
+Library
+A library is non-executable and is included as a dependency in other projects.
+To set up a library, run the following command.
+
+$ rebar create template=library appid=<app name>
+
+

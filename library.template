@@ -1,0 +1,6 @@
+{variables, [ {appid, "myapp"}, {version,"1.0.0"} ]}.
+{template, "library.Makefile", "Makefile"}.
+{template, "library.README",   "README"}.
+{template, "library.app.src",  "src/{{appid}}.app.src"}.
+{template, "library.erl",      "src/{{appid}}.erl"}.
+{template, "library.eunit",    "test/{{appid}}_tests.erl"}.
