@@ -1,0 +1,16 @@
+{variables, [ {appid, "myweb"}, {version,"1.0.0"}, {port, "8000"} ]}.
+{template, "nitrogen.Makefile", "Makefile"}.
+{template, "nitrogen.README",   "README"}.
+{template, "nitrogen.rebar.config",  "rebar.config"}.
+{template, "nitrogen_web/index.erl", "apps/{{appid}}/src/index.erl"}.
+{template, "nitrogen_web/page1.erl", "apps/{{appid}}/src/page1.erl"}.
+{template, "nitrogen_web/web_404.erl", "apps/{{appid}}/src/web_404.erl"}.
+{template, "nitrogen_web/web.app.src", "apps/{{appid}}/src/{{appid}}.app.src"}.
+{template, "nitrogen_web/web_app.erl", "apps/{{appid}}/src/{{appid}}_app.erl"}.
+{template, "nitrogen_web/web_sup.erl", "apps/{{appid}}/src/{{appid}}_sup.erl"}.
+{template, "nitrogen_web/web_common.erl", "apps/{{appid}}/src/{{appid}}_common.erl"}.
+{template, "nitrogen_etc/404.html", "apps/{{appid}}/priv/templates/404.html"}.
+{template, "nitrogen_etc/grid.html", "apps/{{appid}}/priv/templates/grid.html"}.
+{template, "nitrogen_etc/style.css", "apps/{{appid}}/priv/static/css/style.css"}.
+{template, "nitrogen_etc/MiniSpaceman.png", "apps/{{appid}}/priv/static/images/MiniSpaceman.png"}.
+{template, "nitrogen_etc/javascript.js", "apps/{{appid}}/priv/static/js/javascript.js"}.
