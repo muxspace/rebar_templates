@@ -3,14 +3,6 @@ This template is used to make an instance of nitrogen running on mochiweb.
 The original templates were copied over from 
   https://github.com/mattiash/nitrogen_skeleton
 
-Usage
-$ rebar create template=nitrogen appid=myweb [port=8000]
-
-When this command is executed, it will generate a fully functional app with
-two pages (based on the original templates). To remove these pages for a
-truly clean project, run 
-$ make full-clean
-
 Build
 $ make
 
@@ -19,3 +11,5 @@ The erlctl application was removed for this template.
 
 $ make run
 
+Cleaning
+To remove the example pages, run make full-clean

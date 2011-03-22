@@ -13,4 +13,13 @@ To set up a library, run the following command.
 
 $ rebar create template=library appid=<app name>
 
+Nitrogen
+This template will generate a fully functional app with two pages (based on 
+the original templates). 
+
+$ rebar create template=nitrogen appid=<app name> [port=8000]
+
+To remove the example pages for a truly clean project, run 
+
+$ make full-clean
 
