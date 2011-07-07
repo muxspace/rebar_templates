@@ -1,0 +1,7 @@
+{variables, [ {appid, "myapp"}, {version,"1.0.0"} ]}.
+{template, "otpapp.Makefile", "Makefile"}.
+{template, "otpapp.README",   "README"}.
+{template, "otpapp.app.src",  "apps/{{appid}}/src/{{appid}}.app.src"}.
+{template, "otpapp.erl",      "apps/{{appid}}/src/{{appid}}.erl"}.
+{template, "otpapp.hrl",      "apps/{{appid}}/include/{{appid}}.hrl"}.
+{template, "otpapp.eunit",    "apps/{{appid}}/test/{{appid}}_tests.erl"}.

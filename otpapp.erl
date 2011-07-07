@@ -1,0 +1,3 @@
+-module({{appid}}).
+-vsn("{{version}}").
+

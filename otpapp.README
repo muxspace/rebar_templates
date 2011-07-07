@@ -1,0 +1,18 @@
+Dependencies
+. rebar
+. make
+
+Build
+To build the {{appid}} application just run make.
+$ make
+
+Release
+Assuming you have run create-node to prepare a release, run make release. This
+will generate a tar with the version number appended to the file name, based
+on the version specified in the {{appid}}.app.src file.
+
+$ make release
+
+Running
+If you're feeling lazy, you can run the app from the command line with 
+$ make run
