@@ -13,6 +13,16 @@ To set up a library, run the following command.
 
 $ rebar create template=library appid=<app name>
 
+Application
+The application template is slightly different from the built-in simpleapp
+template insomuch that it is designed for multi app support. Hence the 
+directory structure is modified accordingly.
+
+$ rebar create template=otpapp appid=<app name>
+
+In addition, a Makefile is provided that picks up the app.src version and uses
+that when building a release (assuming you've run create-node).
+
 Nitrogen
 This template will generate a fully functional app with two pages (based on 
 the original templates). 
@@ -23,3 +33,5 @@ To remove the example pages for a truly clean project, run
 
 $ make full-clean
 
+Author
+Brian Lee Yung Rowe
