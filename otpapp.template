@@ -3,5 +3,7 @@
 {template, "otpapp.README",   "README"}.
 {template, "otpapp.app.src",  "apps/{{appid}}/src/{{appid}}.app.src"}.
 {template, "otpapp.erl",      "apps/{{appid}}/src/{{appid}}.erl"}.
+{template, "otpapp_app.erl",  "apps/{{appid}}/src/{{appid}}_app.erl"}.
+{template, "otpapp_sup.erl",  "apps/{{appid}}/src/{{appid}}_sup.erl"}.
 {template, "otpapp.hrl",      "apps/{{appid}}/include/{{appid}}.hrl"}.
 {template, "otpapp.eunit",    "apps/{{appid}}/test/{{appid}}_tests.erl"}.
